@@ -1,0 +1,11 @@
+.place__link {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.12;
+}
+
+.place__link:hover,
+.place__link:active,
+.place__link:visited {
+    color: #FFFFFF;
+}

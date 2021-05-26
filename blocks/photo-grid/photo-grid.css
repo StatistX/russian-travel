@@ -5,3 +5,11 @@
   gap: 16px;
   grid-template-columns: repeat(4, 1fr);
 }
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
