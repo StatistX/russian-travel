@@ -3,4 +3,11 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 0 48px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 0 16px;
+  }
 }
