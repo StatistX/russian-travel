@@ -4,6 +4,7 @@
   max-width: 640px;
   text-align: center;
   margin: 0;
+  margin-bottom: 64px;
 }
 
 @media (max-width: 767px) {
