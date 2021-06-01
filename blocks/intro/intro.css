@@ -2,17 +2,17 @@
   max-width: 984px;
   margin: 0 auto;
   line-height: 1.6;
-  padding: 48px;
+  padding: 46px;
 }
 
 @media (max-width: 1023px) {
   .intro {
-    padding: 0 24px;
+    padding: 44px 24px;
   }
 }
 
 @media (max-width: 767px) {
   .intro {
-    padding: 0 16px;
+    padding: 32px 16px;
   }
 }
