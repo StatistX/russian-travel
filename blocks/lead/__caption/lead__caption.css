@@ -3,6 +3,8 @@
   line-height: 1.4;
   margin: 0;
   align-self: flex-start;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 @media (max-width: 1023px) {
