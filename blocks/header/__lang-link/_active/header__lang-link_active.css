@@ -1,9 +1,9 @@
-.header__lang-link_active {
-    text-decoration: underline;
-}
-
-.header__lang-link_active:hover,
-.header__lang-link_active:active,
-.header__lang-link_active:visited {
-    text-decoration: underline;
+.header__lang-link_active::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #fff;
 }

@@ -11,6 +11,7 @@
     background-color: rgba(42, 44, 47, 0.3);
     text-decoration: none;
     color: #FFF;
+    transition: background-color 0.2s linear;
 }
 
 .cover__overlay:hover {
