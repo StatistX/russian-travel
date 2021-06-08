@@ -46,6 +46,7 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__abbreviation/place__abbreviation.css);
 
 /* COVER */
 @import url(../blocks/cover/cover.css);
