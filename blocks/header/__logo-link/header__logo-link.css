@@ -1,3 +1,29 @@
 .header__logo-link {
   font-size: 0;
+  width: 176px;
+  height: 52px;
+  -webkit-mask: url('../../../images/header-logo.svg') no-repeat 50% 50%;
+  mask: url('../../../images/header-logo.svg') no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #FFF;
+}
+
+.header__logo-link:hover {
+  opacity: 0.8;
+}
+
+.header__logo-link:active {
+  opacity: 0.4;
+}
+
+.header__logo-link:visited {
+  background-color: #999;
+}
+
+@media (max-width: 767px) {
+  .header__logo-link {
+      width: 142px;
+      height: 42px;
+  }
 }

@@ -2,10 +2,17 @@
     color: #FFFFFF;
     font-size: 18px;
     line-height: 1.12;
+    align-self: flex-start;
 }
 
-.place__link:hover,
-.place__link:active,
+.place__link:hover {
+    opacity: 0.8;
+  }
+  
+.place__link:active {
+    opacity: 0.4;
+}
+  
 .place__link:visited {
-    color: #FFFFFF;
+    color: #999;
 }
